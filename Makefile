@@ -1,5 +1,7 @@
 install:
 	brew bundle
+
+open:
 	vapor xcode
 
 build:
