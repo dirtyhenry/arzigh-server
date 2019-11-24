@@ -1,0 +1,109 @@
+_type: export
+__export_format: 4
+__export_date: 2019-11-24T17:05:41.263Z
+__export_source: insomnia.desktop.app:v7.0.3
+resources:
+  - _id: req_901909484de448e188d1c6a4d1849f78
+    authentication: {}
+    body: {}
+    created: 1574615067746
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1574615067746
+    method: DELETE
+    modified: 1574615093913
+    name: Delete todo
+    parameters: []
+    parentId: wrk_c7014dbfed054924a6e1d322a96d92e5
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:8080/todos/4
+    _type: request
+  - _id: wrk_c7014dbfed054924a6e1d322a96d92e5
+    created: 1574614886629
+    description: ""
+    modified: 1574614886629
+    name: Arzhig Playground
+    parentId: null
+    _type: workspace
+  - _id: req_7db9db1a41c34032a518a219df74c08e
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "New TODO"
+        }
+    created: 1574614938117
+    description: ""
+    headers:
+      - id: pair_94a9551c8bab48d791da7a2e5010cddb
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1574614938117
+    method: POST
+    modified: 1574614998456
+    name: Create todo
+    parameters: []
+    parentId: wrk_c7014dbfed054924a6e1d322a96d92e5
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:8080/todos
+    _type: request
+  - _id: req_44c16a358a8549008f931316fe6533ec
+    authentication: {}
+    body: {}
+    created: 1574614916839
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1574614916839
+    method: GET
+    modified: 1574614930099
+    name: List todos
+    parameters: []
+    parentId: wrk_c7014dbfed054924a6e1d322a96d92e5
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:8080/todos
+    _type: request
+  - _id: env_f19ea1047651205873781b897bc0dac531dd2953
+    color: null
+    created: 1574614886726
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1574614886726
+    modified: 1574614886726
+    name: Base Environment
+    parentId: wrk_c7014dbfed054924a6e1d322a96d92e5
+    _type: environment
+  - _id: jar_f19ea1047651205873781b897bc0dac531dd2953
+    cookies: []
+    created: 1574614886733
+    modified: 1574614886733
+    name: Default Jar
+    parentId: wrk_c7014dbfed054924a6e1d322a96d92e5
+    _type: cookie_jar
+  - _id: env_f22a259c3d764fd599ba46053e0a497e
+    color: null
+    created: 1574614895552
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1574614895552
+    modified: 1574614898839
+    name: Local
+    parentId: env_f19ea1047651205873781b897bc0dac531dd2953
+    _type: environment
