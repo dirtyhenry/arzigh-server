@@ -12,3 +12,6 @@ test:
 
 package:
 	swift build -c release
+
+start-services:
+	docker-compose -f stack.yml up
